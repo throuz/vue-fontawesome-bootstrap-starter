@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    <div class="test">I'm test SCSS</div>
+    <div class="test text-primary">I'm test SCSS</div>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
@@ -26,7 +26,6 @@ header {
   max-height: 100vh;
   .test {
     font-size: 50px;
-    color: red;
   }
 }
 
