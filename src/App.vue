@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <div class="test">I'm test SCSS</div>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
@@ -20,10 +20,14 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
   line-height: 1.5;
   max-height: 100vh;
+  .test {
+    font-size: 50px;
+    color: red;
+  }
 }
 
 .logo {
